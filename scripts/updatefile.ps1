@@ -1,6 +1,6 @@
 Param(
 [Parameter(Mandatory = $true)]
-[string] $ApiAppURL
+[string] $ApiAppURL="testfile"
 )
 $rootfolder="D:\home\site\wwwroot"
 $items=Get-ChildItem -Path $rootfolder
